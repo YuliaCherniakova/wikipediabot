@@ -7,13 +7,9 @@ wikipedia.set_lang("ru")
 def getwiki(s):
     try:
         ny = wikipedia.page(s)
-
         wikitext=ny.content[:1000]
-
         wikimas=wikitext.split('.')
-
         wikimas = wikimas[:-1]
-
         wikitext2 = ''
 
         for x in wikimas:
