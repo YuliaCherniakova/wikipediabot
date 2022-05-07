@@ -1,7 +1,6 @@
 import telebot, wikipedia, re
 
 bot = telebot.TeleBot('5324655266:AAFAYDjlUUIWxRJjw8NYy8ZN64VBA-yKTu4')
-
 wikipedia.set_lang("ru")
 
 def getwiki(s):
